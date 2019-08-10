@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
-from urllib.request import urlopen
+import urllib.request as url
 
-class AssemblyCrawlier:
+class AssemblyCrawler:
     def __init__(self, param):
         self.param = param
 

@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c494773f-f6e8-4638-9738-acf092d3070b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webcrawl/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webcrawl/data/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webcrawl/kospi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webcrawl/krx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webcrawl/naver_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webcrawl/naver_movie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webcrawl/naver_stock.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webcrawl/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webcrawl/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webcrawl/assembly.py" beforeDir="false" afterPath="$PROJECT_DIR$/webcrawl/assembly.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webcrawl/bugsmusic.py" beforeDir="false" afterPath="$PROJECT_DIR$/webcrawl/bugsmusic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webcrawl/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/webcrawl/controller.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +38,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/git-bash.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ezen\PycharmProjects\tensorflow190803\webcrawl\data" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
