@@ -1,9 +1,12 @@
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 
-class BugsCrawler:
-    def __init__(self, url):
-        self.url = url
+class AssemblyCrawlier:
+    def __init__(self, param):
+        self.param = param
 
     def scrap(self):
-        soup = BeautifulSoup(urlopen(self.url), 'html.parser')
+        html = url.urlopen(self.param).read()
+        soup = BeautifulSoup(html, 'html.parser')
+        txt = soup.find(id="summaryContentDiv").text
+        print(txt)

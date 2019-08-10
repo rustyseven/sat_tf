@@ -1,5 +1,5 @@
-from webcrawl.bugsmusic import BugsCrawler
-
+from webcrawl.controller import Controller
 if __name__ == '__main__':
-    bm = BugsCrawler('https://music.bugs.co.kr/chart/track/realtime/total?chartdate=20190810&charthour=11')
-    bm.scrap()
+    print('a. 국회 크롤링')
+    print('b. 벅스 크롤링')
+    print('0. 종료')
