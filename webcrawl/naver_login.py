@@ -3,7 +3,7 @@ from selenium import webdriver
 
 class NaverLogin:
     def __init__(self, url):
-        self.driver = webdriver.Chrome(executable_path='C:/Users/ezen/PycharmProjects/tensorflow190803/webcrawl/data')
+        self.driver = webdriver.Chrome(executable_path='C:/Users/ezen/PycharmProjects/tensorflow190803/webcrawl/data/chromedriver')
         self.driver.implicitly_wait(3)
         self.driver.get(url)
 
